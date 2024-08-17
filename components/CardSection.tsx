@@ -19,7 +19,7 @@ const CardSection: React.FC = () => {
     'Best-in-class API and 20+ webhooks.'
   ]
   return (
-    <div className='bg-white py-[5rem]  md:pt-0'>
+    <div className='bg-white py-[5rem]'>
       <div className="mt-[2rem] mx-[1rem] sm:mx-[2rem] md:mx-[4rem] lg:mx-[10rem] bg-white">
         <div className="flex flex-col space-y-16">
           {/* First Card */}
