@@ -51,7 +51,7 @@ const CardSection: React.FC = () => {
             <Image
                 width={700}
                 height={500}
-                alt="Sales "
+                alt="Sales  Website Redesign"
                 src="https://res.cloudinary.com/dzvdh7yez/image/upload/v1723885786/ReachBotImg_dkqpei.jpg"
               />
             </div>
