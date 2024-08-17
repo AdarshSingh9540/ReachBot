@@ -7,16 +7,18 @@ function NavbarComponent() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    
-      <div className='flex flex-row justify-between items-center mt-8 px-4 md:px-8'>
-        <div className='flex items-center ml-2 lg:ml-24   mb-4 md:mb-0'>
-          <img className='w-16 h-16' src="https://res.cloudinary.com/dzvdh7yez/image/upload/v1723885833/logo-removebg-preview_kq0um2.png" alt="Logo" />
-          <h1 className='text-blue-500 font-semibold text-xl ml-1'>ReachBot</h1>
-        </div>
-        <div className='flex items-center  md:mt-0 lg:ml-16'>
-          <Button className='text-center p-3'>Book a Demo </Button>
-        </div>
+    <div className='flex flex-row justify-between items-center mt-8 px-4 md:px-8'>
+      {/* Logo Section */}
+      <div className='flex items-center'>
+        <img className='w-16 h-16' src="https://res.cloudinary.com/dzvdh7yez/image/upload/v1723885833/logo-removebg-preview_kq0um2.png" alt="Logo" />
+        <h1 className='text-blue-500 font-semibold text-xl ml-2'>ReachBot</h1>
       </div>
+      
+      {/* Button Section */}
+      <div className='flex items-center'>
+        <Button className='text-center p-3'>Book a Demo</Button>
+      </div>
+    </div>
   );
 }
 

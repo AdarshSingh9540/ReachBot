@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+
 const CardSection: React.FC = () => {
   const features = [
     'Export leads',
@@ -12,12 +13,13 @@ const CardSection: React.FC = () => {
 
   const features2 = [
     'Replace unreliable and overpriced LinkedIn automation tools.',
-    '8+ LinkedIn searches, integrations with Clay, Apollo, Smartlead, and Instantly.',
+    '8+ LinkedIn searches, integrations with Clay, Apollo and Smartlead.',
     'Get Campaign results, A/B tests, each sender performance',
     'Add tags, filters, reminders and have all your conversations in one simple inbox.',
-    'Export LinkedIn contacts from search, Sales Nav, groups, posts, and more.',
-    'Best-in-class API and 20+ webhooks.'
-  ]
+    'Export LinkedIn contacts from search, Sales Nav, groups and more.',
+    'Best-in-class API and 20+ webhooks.'
+  ];
+
   return (
     <div className='bg-white py-[5rem]'>
       <div className="mt-[2rem] mx-[1rem] sm:mx-[2rem] md:mx-[4rem] lg:mx-[10rem] bg-white">
@@ -35,7 +37,7 @@ const CardSection: React.FC = () => {
               <ul className="list-disc pl-5 mb-6">
                 {features.map((feature, index) => (
                   <li key={index} className="flex items-center mb-2 py-1 text-gray-700">
-                    <svg className="w-5 h-5 mr-2 text-blue-500" fill="currentColor" viewBox="0 0 20 20">
+                    <svg className="w-6 h-6 mr-2 text-blue-500" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                     </svg>
                     <span>{feature}</span>
@@ -48,23 +50,25 @@ const CardSection: React.FC = () => {
             </div>
 
             <div className="md:w-1/2 relative">
-            <Image
+              <Image
                 width={700}
                 height={500}
-                alt="Sales  Website Redesign"
+                alt="Sales Website Redesign"
                 src="https://res.cloudinary.com/dzvdh7yez/image/upload/v1723885786/ReachBotImg_dkqpei.jpg"
+                layout="responsive"
               />
             </div>
           </div>
 
           {/* Third Card */}
           <div className="flex flex-col md:flex-row justify-between items-center">
-          <div className="md:w-1/2 relative">
+            <div className="md:w-1/2 relative">
               <Image
                 width={700}
                 height={500}
-                alt="Sales  Website Redesign"
+                alt="Sales Website Redesign"
                 src="https://cdn.prod.website-files.com/66028c3f31c8a5d0d6d10874/667297b37d38bf0f6c9082d1_Sales%20Robot%20Website%20Redesign%20Campaign%20Lifecycle-p-800.png"
+                layout="responsive"
               />
             </div>
             <div className="md:w-1/2 mb-8 md:mb-0 ml-12">
@@ -78,7 +82,7 @@ const CardSection: React.FC = () => {
               <ul className="list-disc pl-5 mb-6">
                 {features2.map((feature, index) => (
                   <li key={index} className="flex items-center mb-2 py-1 text-gray-700">
-                    <svg className="w-5 h-5 mr-2 text-blue-500" fill="currentColor" viewBox="0 0 20 20">
+                    <svg className="w-6 h-6 mr-2 text-blue-500" fill="currentColor" viewBox="0 0 20 20">
                       <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
                     </svg>
                     <span>{feature}</span>
@@ -89,7 +93,6 @@ const CardSection: React.FC = () => {
                 Automate for free →
               </button>
             </div>
-
           </div>
         </div>
       </div>
