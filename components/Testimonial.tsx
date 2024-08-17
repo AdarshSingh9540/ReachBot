@@ -43,7 +43,7 @@ const testimonials = [
     quote:
       "With Reactbot, pulling prospects from LinkedIn and other sources has never been easier. The ability to export leads and send personalized messages directly from the platform has significantly boosted our sales pipeline",
     name: "Emma Johnson",
-    title: "CEO of Creative Ventures:",
+    title: "CEO of Creative Ventures",
   },
   {
     quote: "Reactbot’s premium support and dedicated account manager have been invaluable. They truly understand our needs and offer tailored solutions. The tool’s ability to manage all LinkedIn actions from a single place is incredibly convenient",
@@ -60,6 +60,6 @@ const testimonials = [
     quote:
       "The ease of sending invites and messages through Reactbot has accelerated our growth. We’re now able to focus more on nurturing leads rather than managing them, thanks to the organized and unified inbox.",
     name: "Ethan Thompson",
-    title: "Co-Founder of StartUp Guru:",
+    title: "Co-Founder of StartUp Guru",
   },
 ];
