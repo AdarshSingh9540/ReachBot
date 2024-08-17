@@ -11,7 +11,7 @@ const CardSection: React.FC = () => {
   ];
 
   const features2 = [
-    'Replace unreliable and overpriced LinkedIn automation tools.',
+    'Replace unreliable, inefficientand overpriced LinkedIn automation tools.',
     '8+ LinkedIn searches, integrations with Clay,Smartlead, and Instantly.',
     'Get detailed Campaign results, A/B tests, each sender performance.',
     'Add tags, filters and have all your conversations in one simple inbox.',
