@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import React from 'react';
 
 const HeroSection: React.FC = () => {
@@ -18,7 +19,7 @@ const HeroSection: React.FC = () => {
           Join Waitlist →
         </button> */}
         <button className="bg-transparent text-gray-800 font-semibold py-3 px-6 rounded-full border border-gray-300 hover:bg-gray-100 transition duration-300">
-          Book a demo →
+        <Link href="https://calendly.com/suhail_parry/30-minute-meeting-sf" target='_blank'>Book a demo →</Link>
         </button>
       </div>
     </div>

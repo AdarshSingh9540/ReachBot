@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 const CardSection: React.FC = () => {
   const features = [
     'Export leads',
@@ -42,7 +43,7 @@ const CardSection: React.FC = () => {
                 ))}
               </ul>
               <button className="bg-black text-white font-semibold py-2 sm:py-3 px-4 sm:px-6 rounded-full hover:bg-gray-800 transition duration-300">
-                Automate for free →
+               <Link href="https://calendly.com/suhail_parry/30-minute-meeting-sf" target='_blank'>Automate for free →</Link>  
               </button>
             </div>
 
@@ -85,7 +86,7 @@ const CardSection: React.FC = () => {
                 ))}
               </ul>
               <button className="bg-black text-white font-semibold py-2 sm:py-3 px-4 sm:px-6 rounded-full hover:bg-gray-800 transition duration-300">
-                Automate for free →
+               <Link href="https://calendly.com/suhail_parry/30-minute-meeting-sf" target='_blank'>Automate for free →</Link> 
               </button>
             </div>
 

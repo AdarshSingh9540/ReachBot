@@ -16,7 +16,7 @@ function NavbarComponent() {
       
       {/* Button Section */}
       <div className='flex items-center'>
-        <Button className='text-center p-3'>Book a Demo</Button>
+        <Button className='text-center p-3'><Link href="https://calendly.com/suhail_parry/30-minute-meeting-sf" target="blank">Book a Demo</Link></Button>
       </div>
     </div>
   );

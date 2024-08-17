@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react';
 
 const MessageBanner: React.FC = () => {
@@ -14,7 +15,7 @@ const MessageBanner: React.FC = () => {
           <p className="text-lg mb-6">Trusted by 500+ users in 45 countries.</p>
           <div className="flex space-x-4">
             <button className="bg-gray-600 bg-opacity-50 hover:bg-opacity-70 text-white font-semibold py-2 px-6 rounded-full transition duration-300">
-              Book a Demo
+             <Link href="https://calendly.com/suhail_parry/30-minute-meeting-sf" target='_blank'>Book a Demo</Link>
             </button>
             {/* <button className="bg-purple-700 hover:bg-purple-600 text-white font-semibold py-2 px-6 rounded-full transition duration-300">
               Get started
