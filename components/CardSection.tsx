@@ -19,7 +19,7 @@ const CardSection: React.FC = () => {
   ]
   return (
     <div className='bg-white py-[5rem]'>
-      <div className="mt-[2rem] mx-[1rem] sm:mx-[2rem] md:mx-[4rem] lg:mx-[10rem] bg-white">
+      <div className="mt-[2rem]  sm:mx-[2rem] md:mx-[4rem] lg:mx-[10rem] bg-white">
         <div className="flex flex-col space-y-16">
           {/* First Card */}
           <div className="flex flex-col md:flex-row justify-between items-center">
@@ -57,7 +57,7 @@ const CardSection: React.FC = () => {
           </div>
 
           {/* Third Card */}
-          <div className="flex flex-col md:flex-row justify-between items-center">
+          <div className="flex flex-col px-[2rem] md:flex-row justify-between items-center">
           <div className="md:w-1/2 relative">
               <Image
                 width={700}
