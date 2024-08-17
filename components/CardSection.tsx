@@ -12,11 +12,11 @@ const CardSection: React.FC = () => {
 
   const features2 = [
     'Replace unreliable and overpriced LinkedIn automation tools.',
-    '8+ LinkedIn searches, integrations with Clay, Apollo, Smartlead, and Instantly.',
+    '8+ LinkedIn searches, integrations with Clay,Smartlead, and Instantly.',
     'Get Campaign results, A/B tests, each sender performance',
-    'Add tags, filters, reminders and have all your conversations in one simple inbox.',
-    'Export LinkedIn contacts from search, Sales Nav, groups, posts, and more.',
-    'Best-in-class API and 20+ webhooks.'
+    'Add tags, filters and have all your conversations in one simple inbox.',
+    'Export LinkedIn contacts from search, Sales Nav, groups,and more.',
+   
   ]
   return (
     <div className='bg-white py-[5rem]'>
@@ -67,7 +67,7 @@ const CardSection: React.FC = () => {
                 src="https://cdn.prod.website-files.com/66028c3f31c8a5d0d6d10874/667297b37d38bf0f6c9082d1_Sales%20Robot%20Website%20Redesign%20Campaign%20Lifecycle-p-800.png"
               />
             </div>
-            <div className="md:w-1/2 mb-8 md:mb-0 ml-12">
+            <div className="md:w-1/2 mb-8 md:mb-0">
               <h1 className="text-2xl sm:text-3xl md:text-4xl font-semibold mb-2 text-gray-800">
                 Find your dream customers
               </h1>
