@@ -46,7 +46,7 @@ const CardSection: React.FC = () => {
               </button>
             </div>
 
-            <div className="md:w-1/2 relative">
+            <div className="md:w-1/2 px-[2rem] relative">
             <Image
                 width={700}
                 height={500}
@@ -57,7 +57,7 @@ const CardSection: React.FC = () => {
           </div>
 
           {/* Third Card */}
-          <div className="flex flex-col px-[2rem] md:flex-row justify-between items-center">
+          <div className="flex flex-col  md:flex-row justify-between items-center">
           <div className="md:w-1/2 relative">
               <Image
                 width={700}
@@ -66,7 +66,7 @@ const CardSection: React.FC = () => {
                 src="https://cdn.prod.website-files.com/66028c3f31c8a5d0d6d10874/667297b37d38bf0f6c9082d1_Sales%20Robot%20Website%20Redesign%20Campaign%20Lifecycle-p-800.png"
               />
             </div>
-            <div className="md:w-1/2 mb-8 md:mb-0">
+            <div className="md:w-1/2 mb-8 px-[2rem] md:mb-0">
               <h1 className="text-2xl sm:text-3xl md:text-4xl font-semibold mb-2 text-gray-800">
                 Find your dream customers
               </h1>
